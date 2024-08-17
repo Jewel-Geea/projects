@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  border: none;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  font-size: 1rem;
+}
+.upper-body {
+  height: 65vh;
+  width: 100vw;
+  overflow-y: hidden;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffcd9e;
+  display: flex;
+}
+.left-side {
+  position: relative;
+  width: 50%;
+  left: 8rem;
+}
+.right-side {
+  position: relative;
+  width: 40rem;
+  height: 30rem;
+}
+
+.hero {
+  position: absolute;
+  text-align: center;
+}
+img {
+  width: 73.4%;
+}
+
+.Header-1 {
+  font-weight: 700;
+  font-size: 2rem;
+  width: 22.5rem;
+}
+
+#Intro-para {
+  margin-top: 1.25rem;
+  width: 20rem;
+  font-weight: 500;
+}
+#email {
+  color: black;
+  font-weight: 600;
+  border: 0.12rem solid black;
+
+  width: 13rem;
+  height: 2.4rem;
+  padding: 1.2rem;
+  border-radius: 0.4rem;
+}
+
+#my-button {
+  background-color: #282828;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  height: 2.64rem;
+  width: 9rem;
+  border-radius: 0.4rem;
+  margin-left: 0.6rem;
+}
+#my-button:hover {
+  cursor: pointer;
+}
+
+.Header-2 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 800;
+}
+.fixed {
+  position: relative;
+  font-size: 0.7rem;
+  width: 13rem;
+  height: 1rem;
+  margin-top: 1.35rem;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+}
+
+footer {
+  height: 35vh;
+  width: 100vw;
+  background-color: #282828;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  text-align: justify;
+}
+
+.left-footer {
+  right: 6rem;
+  position: relative;
+}
+.left-footer li {
+  position: relative;
+  overflow-y: hidden;
+  height: 1.2rem;
+  font-weight: 400;
+  margin-top: 0.8rem;
+  line-height: 1.15rem;
+
+  text-align: left;
+  list-style-type: none;
+}
+
+.footer ul {
+  font-weight: 400;
+}
+
+.right-footer li img {
+  width: 14%;
+}
+
+.right-footer li {
+  position: relative;
+  line-height: 0.9rem;
+  margin-top: 0.77rem;
+  overflow-y: hidden;
+  font-weight: 400;
+  text-align: right;
+  right: 6.5rem;
+}
+
+#last-li {
+  margin-top: 1.79rem;
+}
